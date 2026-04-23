@@ -8,6 +8,9 @@ function ProductCard({ product }) {
     currency: 'RWF',
     minimumFractionDigits: 0
   });
+  function onAddToCart(){
+    console.log("Added:", product.name)
+  }
 
   return (
     <div style={{
@@ -42,6 +45,7 @@ function ProductCard({ product }) {
       }}>
         {rwfFormatter.format(priceRwf)}
       </p>
+      <button onClick={onAddToCart}>Add to cart</button>
     </div>
   );
 }
