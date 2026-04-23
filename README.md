@@ -1,16 +1,55 @@
-# React + Vite
+# 🛒 Simba Supermarket
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern React + Vite application for Simba Supermarket, Kigali's premier grocery destination. This project features a polished UI with a focus on fresh groceries and a seamless user experience.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **Modern Layout**: Responsive design with a sticky header and professional footer.
+- **Product Showcase**: Dynamic `ProductCard` component to display supermarket essentials.
+- **Local Currency**: Automated price formatting for Rwandan Francs (RWF) using `Intl.NumberFormat`.
+- **Theming**: Integrated CSS variables for consistent brand colors (Simba Purple).
 
-## React Compiler
+## 🚀 Getting Started
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Prerequisites
 
-## Expanding the ESLint configuration
+- [Node.js](https://nodejs.org/) (v18 or higher recommended)
+- [npm](https://www.npmjs.com/) or [Bun](https://bun.sh/)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Installation
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/leviGatimu/simba-supermarket.git
+   cd simba-supermarket
+   ```
+
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+
+3. **Run the development server:**
+   ```bash
+   npm run dev
+   ```
+
+## 🛠️ Tech Stack
+
+- **Framework**: React 19
+- **Build Tool**: Vite
+- **Styling**: Vanilla CSS with modern Flexbox/Grid
+- **Data**: Centralized product data structure in `src/data/`
+
+## 📦 Project Structure
+
+```text
+src/
+├── components/     # Reusable UI components (Header, Hero, ProductCard, etc.)
+├── data/           # Application data and product arrays
+├── assets/         # Images and icons
+└── App.jsx         # Main application assembly
+```
+
+---
+*Karibu Simba Supermarket!* 🦁
